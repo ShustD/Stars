@@ -16,6 +16,6 @@ export function star (cv, x, y){
 star('red', 80, 80)
 star('blue', 200, 80)
 star('green', 320, 80)
-star('grey', 140, 200)
+star('black', 140, 200)
 star('yellow', 260, 200)
 
