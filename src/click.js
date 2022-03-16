@@ -3,7 +3,7 @@ export let context = stars.getContext("2d")
 let paint = document.getElementById("paint");
 let or = paint.getContext("2d")
 
-export function getpixelcolour(e) {
+export default function getPixelColour(e) {
     let x = e.offsetX || e.originalEvent.layerX || e.layerX,
         y = e.offsetY || e.originalEvent.layerY || e.layerY,
         pixel = context.getImageData(x, y, 1, 1);
