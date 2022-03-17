@@ -1,9 +1,9 @@
-let stars = document.getElementById("stars");
-export let context = stars.getContext("2d")
-let paint = document.getElementById("paint");
-let or = paint.getContext("2d")
+const stars = document.getElementById("stars");
+export const context = stars.getContext("2d")
+const paint = document.getElementById("paint");
+const or = paint.getContext("2d")
 
-export function getpixelcolour(e) {
+export function getPixelColour(e) {
     let x = e.offsetX || e.originalEvent.layerX || e.layerX,
         y = e.offsetY || e.originalEvent.layerY || e.layerY,
         pixel = context.getImageData(x, y, 1, 1);
