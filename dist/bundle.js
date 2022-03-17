@@ -2,15 +2,14 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
 /* 0 */,
-/* 1 */,
-/* 2 */
+/* 1 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ star)
+/* harmony export */   "star": () => (/* binding */ star)
 /* harmony export */ });
-/* harmony import */ var _click_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+/* harmony import */ var _click_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 
 _click_js__WEBPACK_IMPORTED_MODULE_0__.context.fillStyle = 'rgb(255,255,255)';
 _click_js__WEBPACK_IMPORTED_MODULE_0__.context.fill();
@@ -31,18 +30,18 @@ function star (cv, x, y){
 
 
 /***/ }),
-/* 3 */
+/* 2 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "context": () => (/* binding */ context),
-/* harmony export */   "default": () => (/* binding */ getPixelColour)
+/* harmony export */   "getPixelColour": () => (/* binding */ getPixelColour)
 /* harmony export */ });
-let stars = document.getElementById("stars");
-let context = stars.getContext("2d")
-let paint = document.getElementById("paint");
-let or = paint.getContext("2d")
+const stars = document.getElementById("stars");
+const context = stars.getContext("2d")
+const paint = document.getElementById("paint");
+const or = paint.getContext("2d")
 
 function getPixelColour(e) {
     let x = e.offsetX || e.originalEvent.layerX || e.layerX,
@@ -56,26 +55,26 @@ function getPixelColour(e) {
 }
 
 /***/ }),
-/* 4 */
+/* 3 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(10);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(10);
 
       
       
@@ -106,7 +105,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /***/ }),
-/* 5 */
+/* 4 */
 /***/ ((module) => {
 
 
@@ -215,7 +214,7 @@ module.exports = function (list, options) {
 };
 
 /***/ }),
-/* 6 */
+/* 5 */
 /***/ ((module) => {
 
 
@@ -290,7 +289,7 @@ function domAPI(options) {
 module.exports = domAPI;
 
 /***/ }),
-/* 7 */
+/* 6 */
 /***/ ((module) => {
 
 
@@ -334,7 +333,7 @@ function insertBySelector(insert, style) {
 module.exports = insertBySelector;
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -351,7 +350,7 @@ function setAttributesWithoutAttributes(styleElement) {
 module.exports = setAttributesWithoutAttributes;
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ ((module) => {
 
 
@@ -367,7 +366,7 @@ function insertStyleElement(options) {
 module.exports = insertStyleElement;
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ ((module) => {
 
 
@@ -388,29 +387,29 @@ function styleTagTransform(css, styleElement) {
 module.exports = styleTagTransform;
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(12);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(12);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "h1 {\n  font-size: 72px;\n  text-align: center;\n  color: red;\n}\n\n.stars {\n  border: 1px solid black;\n  margin: 0 150px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".container {\n  width: 1500px;\n  margin: 0 auto;\n}\n\nh1 {\n  font-size: 72px;\n  text-align: center;\n  color: red;\n}\n\n.stars {\n  border: 1px solid black;\n  margin-left: 200px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ ((module) => {
 
 
@@ -420,7 +419,7 @@ module.exports = function (i) {
 };
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ ((module) => {
 
 
@@ -599,19 +598,19 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _stars_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
-/* harmony import */ var _click_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var _stars_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _click_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
 
 
 
 
-(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__["default"])('red', 80, 80)
-;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__["default"])('blue', 200, 80)
-;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__["default"])('green', 320, 80)
-;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__["default"])('black', 140, 200)
-;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__["default"])('yellow', 260, 200)
-stars.addEventListener('click',_click_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
+(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__.star)('red', 80, 80)
+;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__.star)('blue', 200, 80)
+;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__.star)('green', 320, 80)
+;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__.star)('black', 140, 200)
+;(0,_stars_js__WEBPACK_IMPORTED_MODULE_0__.star)('yellow', 260, 200)
+stars.addEventListener('click',_click_js__WEBPACK_IMPORTED_MODULE_1__.getPixelColour);
 
 
 

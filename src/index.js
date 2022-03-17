@@ -1,5 +1,5 @@
-import star from './stars.js';
-import getPixelColour from './click.js'
+import {star} from './stars.js';
+import {getPixelColour} from './click.js'
 import './style.scss';
 
 star('red', 80, 80)
